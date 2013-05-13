@@ -1,10 +1,9 @@
 package com.klangner.ast;
 
-import java.io.IOException;
-import java.io.InputStream;
 
 public interface IParser {
 
-	public INode parseFile(InputStream is) throws IOException;
-	public INode parseFolder(String path) throws IOException;
+	public INode parseFile(String fileName);
+	public INode parsePackage(String packagePath);
+	public INode parseProject(String srcPath);
 }
