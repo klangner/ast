@@ -10,5 +10,5 @@ The following program implements this specification:
 
 
 ## Redistributing
-Cantor source code is distributed under the Apache 2.0 License. 
-Cantor may be freely redistributed, subject to the provisions of this license.
+ast source code is distributed under the Apache 2.0 License. 
+ast may be freely redistributed, subject to the provisions of this license.
